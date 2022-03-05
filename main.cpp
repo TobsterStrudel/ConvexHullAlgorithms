@@ -4,7 +4,7 @@
 int main(int argc, char *argv[]) {
     correctnessCheck();
 //    plot();
-    QApplication a(argc, argv); /*** Warning! Do not delete this line. Otherwise, QT GUI won't start!! ***/
+    QApplication a(argc, argv);
     unsigned n = 20;
     double sizeOfSquare = 500;
     std::vector<Point> P;
