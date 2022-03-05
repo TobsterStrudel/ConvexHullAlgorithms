@@ -10,7 +10,6 @@
 #include <QString>
 #include <QTranslator>
 #include <CGAL/convex_hull_2.h>
-#include <stack>
 void jarvisMarch(const std::vector<Point> &P, std::vector<unsigned> &idsOfConvexHullPoints);
 void grahamsScan(const std::vector<Point> &P, std::vector<unsigned> &idsOfConvexHullPoints);
 
